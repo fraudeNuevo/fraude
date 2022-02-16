@@ -1,0 +1,33 @@
+.regular-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 447px;
+    height: 80px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+
+    background: rgba(73, 190, 206, 0.09);
+    border: 2px solid #4A68B4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-size: 22px;
+    color: #4A68B4;
+
+
+}
+
+.regular-style::placeholder{
+    padding-top: 20px;
+    padding-left: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #4A68B4;
+}

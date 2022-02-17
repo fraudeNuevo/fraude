@@ -53,7 +53,6 @@ const Login = () => {
                     <a href="/menu">Ingresar</a>
                 </button>
                
-                
             </div>
             
     )

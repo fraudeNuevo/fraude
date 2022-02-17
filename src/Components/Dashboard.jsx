@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 const Dashboard = () => {
     return (
         <div>
-            hola soy el dashboard
+            <NavBar/>
         </div>
     )
 }

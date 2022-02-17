@@ -25,6 +25,11 @@ div img{
 
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 .login-btn {
     margin-top: 30px;
     margin-left: 220px;

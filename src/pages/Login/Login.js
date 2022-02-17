@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import './Login.css';
-import Input from "./Components/Input/Input";
-
+import Input from "../../Components/Input";
 
 const Login = () => {
 
@@ -20,14 +19,15 @@ const Login = () => {
     function handleSubmit() {
         let account = {user, password}
         if(account) {
-            console.log('Account:', account)
+        console.log('Account:', account)
         }
     }
 
     return (
+        
             <div className="login-container">
                 <div>
-                    <img src={'images/logo-pluspagos.png'} />
+                    <img src={'../images/logo-pluspagos.png'} />
                 </div>
                 
                 <Input 
@@ -48,10 +48,14 @@ const Login = () => {
                 }}
                 handleChange={handleChange}
                 />
+                
                 <button onClick={handleSubmit} className="login-btn">
-                    Ingresar
+                    <a href="/menu">Ingresar</a>
                 </button>
+               
+                
             </div>
+            
     )
 }
 

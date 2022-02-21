@@ -50,7 +50,7 @@ const Login = () => {
                 />
                 
                 <button onClick={handleSubmit} className="login-btn">
-                    <a href="/menu">Ingresar</a>
+                    <a href="/Menu">Ingresar</a>
                 </button>
                
             </div>

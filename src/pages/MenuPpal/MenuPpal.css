@@ -3,3 +3,27 @@ div img{
     margin-left: 35px;
     margin-top: 25px;
 }
+
+.img-style-container{
+    position: absolute;
+    width: 350px;
+    left: 650px;
+    top: 250px;
+    
+}
+
+.p-style-container{
+    position: absolute;
+
+    left: 790px;
+    top: 350px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #1B195D;
+
+    
+}

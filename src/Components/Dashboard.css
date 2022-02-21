@@ -1,0 +1,37 @@
+.p-style-title{
+    position: absolute;
+
+    left: 310px;
+    top: 12px;
+
+    font-style: normal;
+    font-size: 20px;
+    line-height: 42px;
+
+    color: #1B195D;
+
+    
+}
+
+.icon-user-style{
+    position: absolute;
+
+    left: 1270px;
+    top: 12px;
+
+    font-style: normal;
+    font-size: 20px;
+    line-height: 42px;
+
+    color: #1B195D;
+    
+}
+
+.img-user-style{
+    position: absolute;
+    width: 59px;
+    height: 54px;
+    left: 1410px;
+    top: 8px;
+    
+}

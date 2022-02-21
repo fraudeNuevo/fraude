@@ -1,9 +1,8 @@
 import React from 'react';
-import './Dashboard.css'
 import NavBar from './NavBar';
 import Container from './Container';
 
-const Dashboard = () => {
+const GestionAlertas = () => {
     return (
         <div>
             <div>
@@ -11,7 +10,7 @@ const Dashboard = () => {
             </div>
 
             <div className='p-style-title'>
-                <p>Dashboard</p>
+                <p>Gestión de Alertas</p>
             </div>
 
             <div className='icon-user-style'>
@@ -24,4 +23,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard;
+export default GestionAlertas;
